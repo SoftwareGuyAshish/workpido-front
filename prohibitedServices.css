@@ -1,0 +1,35 @@
+body,
+.main-background {
+  background-color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-body {
+  background-color: white;
+  margin-top: 5vh;
+  padding: 10px 30px;
+}
+
+@media screen and (min-width: 800px) {
+  .main-body {
+    width: 85%;
+    margin: 5vh auto; /* To center the div horizontally */
+  }
+}
+
+/* Styles for mobile view */
+@media screen and (max-width: 799px) {
+  .main-body {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

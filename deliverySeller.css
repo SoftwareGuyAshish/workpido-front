@@ -1,0 +1,33 @@
+.selling-body {
+  width: 85%;
+  padding-top: 20px;
+  padding-bottom: 48px;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.status-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: small;
+}
+
+.status {
+  border: 1px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
