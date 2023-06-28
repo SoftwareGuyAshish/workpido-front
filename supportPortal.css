@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
 .search-bar {
   display: flex;
   flex-direction: column;
@@ -13,7 +17,7 @@
   padding: 40px;
   margin: 0px;
   width: 100%;
-  background-color: #8d8d8d;
+  background-image: url(https://images.pexels.com/photos/265631/pexels-photo-265631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
 }
 
 form {

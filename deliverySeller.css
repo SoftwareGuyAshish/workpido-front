@@ -1,7 +1,9 @@
 .selling-body {
+  background-color: #f6f6f6;
   width: 85%;
   padding-top: 20px;
   padding-bottom: 48px;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 td {
