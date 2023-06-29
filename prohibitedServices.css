@@ -3,6 +3,10 @@ body,
   background-color: #f6f6f6;
 }
 
+body {
+  font-size: 14px;
+}
+
 a {
   text-decoration: none;
 }
@@ -10,18 +14,26 @@ a {
 .main-body {
   background-color: white;
   margin-top: 5vh;
-  padding: 10px 30px;
+  padding: 35px 50px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 550;
 }
 
 h2 {
-  margin-top: 30px;
+  font-weight: 500;
+  margin-top: 35px;
   margin-bottom: 15px;
+  font-size: 26px;
 }
 
 @media screen and (min-width: 800px) {
   .main-body {
-    width: 85%;
+    width: 80%;
     margin: 5vh auto; /* To center the div horizontally */
+    padding: 35px 50px;
   }
 }
 
@@ -30,6 +42,7 @@ h2 {
   .main-body {
     width: 100%;
     margin: 0;
+    padding: 35px 25px;
   }
 }
 

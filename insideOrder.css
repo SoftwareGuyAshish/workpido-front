@@ -3,6 +3,10 @@ body,
   background-color: #f6f6f6;
 }
 
+body {
+  font-size: 12px !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -11,6 +15,10 @@ a {
   display: flex;
   width: 85%;
   padding: 20px;
+}
+
+.price {
+  color: rgb(1, 232, 155) !important;
 }
 
 /* details section */
@@ -32,14 +40,24 @@ a {
   padding: 10px;
 }
 
-.order-img,
-.message-img {
-  background-color: #ff0e0e;
-  height: 40px;
-  width: 40px;
+.order-name > h4 {
+  font-weight: bold;
+}
+
+.order-img {
+  background-color: #ffffff;
+  width: 4vw;
+  clip-path: circle();
   border-radius: 50%;
   object-fit: cover;
-  padding: 10px;
+}
+
+.message-img {
+  background-color: #ffffff;
+  width: 3vw;
+  clip-path: circle();
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .navigation-pane {
@@ -49,7 +67,7 @@ a {
 }
 
 .table-section {
-  padding: 10px;
+  padding: 20px;
 }
 
 .chats-card {
@@ -126,18 +144,33 @@ a {
 }
 
 .buyer-img {
-  background-color: #00ffae;
-  height: 100%;
-  width: 3em;
-  border-radius: 50%;
+  background-color: #ffffff;
+  width: 4vw;
+  clip-path: circle();
   object-fit: cover;
+  border-radius: 50%;
   margin-left: 5px;
 }
 
+.order-track > ul {
+  padding: 5px 0px;
+}
+
+.order-track > ul > li {
+  padding: 7px 0px;
+  list-style-type: none;
+}
+
+.list-marker {
+  width: 3vw;
+  clip-path: circle();
+}
+
 .article-header {
+  background-color: #fbfbfb;
   display: flex;
   justify-content: space-between;
-  border: 1px solid #656565;
+  border: 1px solid #dcdcdc;
   border-radius: 5px;
   width: 100%;
   padding: 10px;

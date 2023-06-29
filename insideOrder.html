@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Orders</title>
+    <title>Order Details</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,7 +17,7 @@
     />
     <style>
       body {
-        font-family: "Poppins", sans-serif;
+        font-family: "Poppins", sans-serif !important;
       }
     </style>
   </head>
@@ -34,10 +34,13 @@
       <div class="details container-fluid">
         <div class="details-card">
           <div class="order-name">
-            <div class="order-img">
-              <img src="" alt="" />
-            </div>
-            <h4 style="gap: 10px">
+            <img
+              class="order-img"
+              src="https://images.pexels.com/photos/3473525/pexels-photo-3473525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt=""
+            />
+
+            <h4 style="margin-left: 10px">
               Perfect Seo Dofollow Backlinks High Authority Links
             </h4>
           </div>
@@ -48,12 +51,15 @@
               <span>Order #id</span>
             </div>
             <div class="date">
-              <span>March 22, 2023</span>
+              <span class="text-dark">March 22, 2023</span>
             </div>
           </div>
           <div class="table-section">
-            <table class="table">
-              <thead class="main-background">
+            <table class="table table-borderless">
+              <thead
+                class="main-background"
+                style="border-bottom: none !important"
+              >
                 <tr>
                   <th scope="col">Service</th>
                   <th scope="col">Delivery</th>
@@ -80,7 +86,7 @@
                     </a>
                   </td>
                   <td>4d</td>
-                  <td>$8</td>
+                  <td class="price">$8</td>
                 </tr>
               </tbody>
             </table>
@@ -89,12 +95,12 @@
         <div class="chats-card">
           <div class="load-more">
             <h6>
-              <a href=""
+              <a style="font-size: 12px; font-weight: bold" href=""
                 >Show previous messages
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="12"
+                  height="12"
                   fill="currentColor"
                   class="bi bi-caret-down-fill"
                   viewBox="0 0 16 16"
@@ -125,8 +131,12 @@
           </div>
           <div class="chats">
             <div class="message">
-              <div class="message-img">
-                <img src="" alt="" />
+              <div>
+                <img
+                  class="message-img"
+                  src="https://images.pexels.com/photos/3473525/pexels-photo-3473525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt=""
+                />
               </div>
               <div class="message-content px-3">
                 <p>
@@ -144,8 +154,12 @@
               </div>
             </div>
             <div class="message">
-              <div class="message-img">
-                <img src="" alt="" />
+              <div>
+                <img
+                  class="message-img"
+                  src="https://images.pexels.com/photos/3473525/pexels-photo-3473525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt=""
+                />
               </div>
               <div class="message-content px-3">
                 <p>
@@ -170,7 +184,6 @@
                   I don't understand how it works no, I asked You can you make
                   me numbr one for my name and you said yes...
                 </p>
-                <hr />
               </div>
             </div>
           </div>
@@ -191,8 +204,12 @@
           </div>
           <div class="chats">
             <div class="message">
-              <div class="message-img">
-                <img src="" alt="" />
+              <div>
+                <img
+                  class="message-img"
+                  src="https://images.pexels.com/photos/3473525/pexels-photo-3473525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt=""
+                />
               </div>
               <div class="message-content px-3">
                 <p>
@@ -206,7 +223,6 @@
                   me numbr one for my name and you said yes... so far I am not
                   number one.
                 </p>
-                <hr />
               </div>
             </div>
           </div>
@@ -232,12 +248,50 @@
                 <h6>johnTL</h6>
                 <span>Offline 2 hours</span>
               </div>
-              <div class="buyer-img">
-                <img src="" alt="" />
-              </div>
+              <img
+                class="buyer-img"
+                src="https://images.pexels.com/photos/3473525/pexels-photo-3473525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt=""
+              />
             </div>
           </div>
           <hr />
+          <div class="order-track">
+            <ul>
+              <li>
+                <img
+                  class="list-marker"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwA-v6POh2Ih12QqWMIinbrBpWBzzXhr3RFS3F_L0UXA&s"
+                  alt=""
+                />
+                Order created
+              </li>
+              <li>
+                <img
+                  class="list-marker"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwA-v6POh2Ih12QqWMIinbrBpWBzzXhr3RFS3F_L0UXA&s"
+                  alt=""
+                />
+                Order accepted
+              </li>
+              <li>
+                <img
+                  class="list-marker"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwA-v6POh2Ih12QqWMIinbrBpWBzzXhr3RFS3F_L0UXA&s"
+                  alt=""
+                />
+                Submitted for approval
+              </li>
+              <li>
+                <img
+                  class="list-marker"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwA-v6POh2Ih12QqWMIinbrBpWBzzXhr3RFS3F_L0UXA&s"
+                  alt=""
+                />
+                Order completed
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="container-fluid p-0">
           <div class="article-header">
