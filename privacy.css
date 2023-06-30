@@ -1,0 +1,65 @@
+body,
+.main-background {
+  background-color: #f6f6f6;
+}
+
+body {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-body {
+  background-color: white;
+  margin-top: 5vh;
+  padding: 35px 50px;
+}
+
+h3,
+h4 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0px 5px 0px;
+}
+
+@media screen and (min-width: 800px) {
+  .main-body {
+    width: 90%;
+    margin: 5vh auto; /* To center the div horizontally */
+    padding: 35px 50px;
+  }
+}
+
+/* Styles for mobile view */
+@media screen and (max-width: 799px) {
+  .main-body {
+    width: 100%;
+    margin: 0;
+    padding: 35px 25px;
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 10px;
+}
+h2 {
+  padding-top: 20px;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
