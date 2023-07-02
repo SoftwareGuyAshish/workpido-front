@@ -1,0 +1,122 @@
+body {
+  font-size: 14px;
+  background-color: #f6f6f6;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  background-image: url(https://images.pexels.com/photos/16585271/pexels-photo-16585271/free-photo-of-branch-of-pink-flowers-on-the-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+  margin: 0px;
+  width: 100%;
+  background-color: #0000009c;
+}
+
+.banner-text > h1 {
+  font-size: 36px;
+}
+
+@media screen and (min-width: 850px) {
+  .main-content {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 80px;
+    width: 75%;
+  }
+  .content-support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #06703f3e;
+    padding: 50px 20px;
+    margin-bottom: 0px;
+    width: 75%;
+  }
+}
+
+/* Styles for mobile view */
+@media screen and (max-width: 849px) {
+  .main-content {
+    background-color: white;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vh 5vw;
+    width: 100%;
+  }
+
+  .content-support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #06703f3e;
+    padding: 50px 20px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+}
+
+.content-info {
+  padding: 10px 0px;
+}
+
+.list-heading {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 15px;
+}
+
+.list-heading > h4 {
+  margin-bottom: 0px;
+}
+
+svg {
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 8px;
+  height: 45px;
+  width: 45px;
+  color: rgb(12, 146, 12);
+  margin-right: 10px;
+}
+
+.content-lists > ul > li {
+  display: inline-flex;
+  padding: 0px 5px;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.list-marker {
+  width: 20px;
+  height: 15px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.content-support > button {
+  width: 60%;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
