@@ -1,0 +1,49 @@
+body {
+  font-size: 14px;
+}
+
+.support-tree {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+
+table {
+  box-shadow: 0px 0px 8px 2px rgb(239, 239, 239);
+}
+
+a {
+  color: #2a2a2a;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px !important;
+  padding-left: 30px !important;
+  text-decoration: none;
+}
+
+tr :hover {
+  background-color: #f6f6f6;
+}
+
+@media screen and (min-width: 800px) {
+  .support-tree {
+    width: 65%;
+  }
+}
+
+/* Styles for mobile view */
+@media screen and (max-width: 799px) {
+  .support-tree {
+    width: 100%;
+  }
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
